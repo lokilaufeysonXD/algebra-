@@ -1,0 +1,22 @@
+.card{
+    margin-top: 10%;
+}
+.LinkCart{
+    text-decoration: none;
+    color: black;
+}
+.LinkCart:hover{
+    text-decoration:none ;
+    color: black;
+}
+#TextDecoration{
+    color: #0D6EFD;
+}
+#TextDecoration:hover{
+    color: #0D6EFD;
+    text-decoration: underline;
+}
+#ImgCart{
+    /* width: auto; */
+    height: auto;
+}

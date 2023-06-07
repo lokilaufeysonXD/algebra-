@@ -37,6 +37,19 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+```bash
+[link of the repository of the old project](https://github.com/lokilaufeysonXD/algebra.git)
+[old project page]( https://kittle-grades.000webhostapp.com/index.php) - This page is being updated with the latest knowledge.
+
+
+[steps to open the old project locally]
+- install XAMPP (https://www.apachefriends.org/es/index.html )
+- download and unzip the project
+- copy the unzipped algebra folder to the following pc path [C:\xampp\htdocs]
+- open a web browser in the address bar write [localhost/algebra/index.php]
+```
+
+
 <!-- link del repocitorio  de git  https://github.com/lokilaufeysonXD/algebra.git
 
 pagina wep en linea https://kittle-grades.000webhostapp.com/index.php

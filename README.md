@@ -37,6 +37,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+
+## Deploy on locally
+
 [link of the repository of the old project](https://github.com/lokilaufeysonXD/algebra.git)
 [old project page]( https://kittle-grades.000webhostapp.com/index.php) - This page is being updated with the latest knowledge.
 

@@ -67,6 +67,57 @@ button:hover .arrow {
 button:hover .arrow:before {
   right: 0;
 }
+.body{
+  background-color: #F8F9FA;
+  position: relative;
+  padding-bottom: 40%;
+}
+/* //////////////////////////////////////////////// FOOTER ////////////////////////////////////// */
+.footer{
+  background-color: #212529;
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px;
+}
+.footer, p{
+  margin-top: 15px;
+  color: #9FA6AD ;
+}
+.footer, li{
+  list-style-type: none;
+  color: #9FA6AD ;
+}
+.footer, h6{
+  color: #BABFC4;
+  font-family: -apple-system
+  BlinkMacSystemFont
+  "Segoe UI Adjusted"
+  "Segoe UI"
+  "Liberation Sans"
+  sans-serif;
+  font-size: 13px;
+}
+#redes{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#BottomBolverArriba{
+  margin-top: 15px;
+  color: #9FA6AD ;
+}
+.footer, li:hover{
+  filter: brightness(150%);
+}
+.footer, h6:hover{
+  filter: brightness(150%);
+}
+#BottomBolverArriba:hover{
+  filter: brightness(150%);
+}
+
 /* #NavBarShade{
   box-shadow: 0px 0px 0px 10px black;
 } */

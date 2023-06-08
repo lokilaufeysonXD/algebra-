@@ -6,7 +6,7 @@ const NavpageBak = () => {
     <>
       <div class="navbar navbar-dark bg-dark shadow-sm" id="NavBarShade" > 
         <div class="container">
-          <a href="#" class="navbar-brand d-flex align-items-center">
+          <a href="/" class="navbar-brand d-flex align-items-center">
             <strong>ALGEBRA</strong>
           </a>
           <h4>

@@ -6,7 +6,7 @@ const Navpage = () => {
     <>
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container">
-          <a href="#" class="navbar-brand d-flex align-items-center">
+          <a href="/" class="navbar-brand d-flex align-items-center">
             <strong className='Logo'>ALGEBRA</strong>
           </a>
           <BottomSobreNosotros/>

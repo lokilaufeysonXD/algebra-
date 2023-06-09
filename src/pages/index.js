@@ -3,6 +3,8 @@ import Navpage from '@/components/Layouts/Navpage'
 import Layout from '@/components/Layouts/Layout'
 import Footer from '@/components/Layouts/footer'
 import CartDiagonalizacion from '@/components/Diagonalizacion/CartDiagonalizacion'
+import CartFormaCuadratica from '@/components/FormaCuadratica/CartFormaCuadratica'
+import CartHerramientasInformaticas from '@/components/herramientas_informaticas/CartHerramientasInformaticas'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +19,10 @@ export default function Home() {
             <CartDiagonalizacion/>
           </div>
           <div className='col-md-4'>
-            <CartDiagonalizacion/>
+            <CartFormaCuadratica/>
           </div>
           <div className='col-md-4'>
-            <CartDiagonalizacion/>            
+            <CartHerramientasInformaticas/>            
           </div>
         </div>
       </div>        

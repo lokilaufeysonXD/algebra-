@@ -9,7 +9,7 @@ a{
   text-decoration: none;
 }
 button {
-  --primary-color: #645bff;
+  --primary-color: #0D6EFD;
   --secondary-color: #fff;
   --hover-color: #111;
   --arrow-width: 10px;
@@ -73,6 +73,13 @@ button:hover .arrow:before {
   /* max-width: 100%; */
   /* padding-bottom: 40%; */
 }
+#ButoomAtras{
+  color: #fff;
+}
+#ButoomAtras:hover{
+  color: #8a8a8c;
+  text-decoration: underline;
+}
 /* //////////////////////////////////////////////// FOOTER ////////////////////////////////////// */
 .paddinTopInFooter{
   padding-top: 7.4%;
@@ -120,6 +127,58 @@ button:hover .arrow:before {
 }
 #BottomBolverArriba:hover{
   filter: brightness(150%);
+}
+/* //////////////////////////////////////////////// STYLES OF THE COMPONENTS ////////////////////////////////////// */
+.TextHeader{
+  padding-top: 3%; 
+}
+.TextBody{
+  padding-bottom: 5%;
+}
+.ContainerIMG{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5%;
+}
+.ContainerHeaderNavDiagonalizacion{
+  padding-top: 52px;
+}
+.ListNavDiagonalizacion{
+  /* filter: brightness(0%); */
+  list-style: square;
+  
+}
+.ListNavDiagonalizacion:hover{
+  filter: brightness(0%);
+  text-decoration: underline;
+  cursor: pointer;
+  color: #0D6EFD !important; 
+
+}
+#ButtomEjemplos{
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #0D6EFD;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #0D6EFD;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #0D6EFD;
+}
+#ButtomEjemplos:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #0D6EFD;
+}
+#ButtomEjemplos:active {
+  transform: scale(0.9);
 }
 
 /* #NavBarShade{

@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
 
     return (
-        <>
+        <div className="paddinTopInFooter">
             <div class="container footer">
                 <div className="container">
                     <div className="row">
@@ -58,7 +58,7 @@ const Footer = () => {
                     </div>
                 </center>
             </div >
-        </>
+        </div>
 
     );
 

@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google'
-// import Navpage from '@/components/Navpage'
+import Navpage from '@/components/Navpage'
 import Layout from '@/components/Layouts/Layout'
 import NavpageBak from '@/components/Layouts/NavpageBak'
 import Footer from '@/components/Layouts/footer'
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Layout />
-      {/* <Navpage /> */}
+      <Navpage />
       <NavpageBak/>
       <h1>hola mundo1</h1>
       <Footer />

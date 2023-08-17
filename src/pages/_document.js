@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import Footer from '@/components/Layouts/footer'
+// import Footer from '@/components/Layouts/footer'
 
 export default function Document() {
   return (
@@ -8,7 +8,7 @@ export default function Document() {
       <body className='body'>
         <Main />
         <NextScript />
-      <Footer/>
+      {/* <Footer/> */}
       </body>
     </Html>
   )
